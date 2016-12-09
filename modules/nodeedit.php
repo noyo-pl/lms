@@ -290,6 +290,7 @@ if (isset($_POST['nodeedit'])) {
 	$nodeinfo['longitude'] = $nodeedit['longitude'];
 	$nodeinfo['invprojectid'] = $nodeedit['invprojectid'];
 	$nodeinfo['wysiwyg'] = $nodeedit['wysiwyg'];
+	$nodeinfo['info'] = $nodeedit['info'];
 
 	if ($nodeedit['ipaddr_pub'] == '0.0.0.0')
 		$nodeinfo['ipaddr_pub'] = '';
